@@ -247,7 +247,7 @@ const LandingPage: React.FC = () => {
           <div className="flex flex-col items-start gap-4">
             <div className="inline-flex items-center rounded-full px-4 py-1.5 font-medium text-sm border border-zinc-200 bg-white text-zinc-950">
               <div className="mr-2 size-2 rounded-full bg-gradient-to-r from-[#FB923C] via-[#F472B6] to-[#E879F9]"></div>
-              "Hightligths"
+              Hightligths
             </div>
             <div className="flex flex-col gap-4 md:flex-row md:items-end md:gap-10">
               <h2 className="font-medium text-4xl text-zinc-950 tracking-tight lg:text-5xl">
@@ -351,17 +351,53 @@ const LandingPage: React.FC = () => {
                       </div>
                     </button>
                     <button className="w-full rounded-2xl p-6 text-left transition-all duration-300 bg-transparent opacity:0.6 ">
-                      <div className="flex items-start gap-4"><span className="font-medium text-lg transition-colors duration-300 text-zinc-400 transition:color 0s">02</span>
-                      <div className="flex-1"><h3 className="font-medium text-lg transition-colors duration-300 text-zinc-400">Agent solves your customers' problems </h3></div></div></button>
-                      <button className="w-full rounded-2xl p-6 text-left transition-all duration-300 bg-transparent opacity:0.6 ">
-                      <div className="flex items-start gap-4"><span className="font-medium text-lg transition-colors duration-300 text-zinc-400 transition:color 0s">03</span>
-                      <div className="flex-1"><h3 className="font-medium text-lg transition-colors duration-300 text-zinc-400">Refine&Optimize</h3></div></div></button>
-                      <button className="w-full rounded-2xl p-6 text-left transition-all duration-300 bg-transparent opacity:0.6 ">
-                      <div className="flex items-start gap-4"><span className="font-medium text-lg transition-colors duration-300 text-zinc-400 transition:color 0s">04</span>
-                      <div className="flex-1"><h3 className="font-medium text-lg transition-colors duration-300 text-zinc-400">Route complex issues to a human </h3></div></div></button>
-                      <button className="w-full rounded-2xl p-6 text-left transition-all duration-300 bg-transparent opacity:0.6 ">
-                      <div className="flex items-start gap-4"><span className="font-medium text-lg transition-colors duration-300 text-zinc-400 transition:color 0s">05</span>
-                      <div className="flex-1"><h3 className="font-medium text-lg transition-colors duration-300 text-zinc-400">Review Analytics@insights </h3></div></div></button>
+                      <div className="flex items-start gap-4">
+                        <span className="font-medium text-lg transition-colors duration-300 text-zinc-400 transition:color 0s">
+                          02
+                        </span>
+                        <div className="flex-1">
+                          <h3 className="font-medium text-lg transition-colors duration-300 text-zinc-400">
+                            Agent solves your customers' problems{" "}
+                          </h3>
+                        </div>
+                      </div>
+                    </button>
+                    <button className="w-full rounded-2xl p-6 text-left transition-all duration-300 bg-transparent opacity:0.6 ">
+                      <div className="flex items-start gap-4">
+                        <span className="font-medium text-lg transition-colors duration-300 text-zinc-400 transition:color 0s">
+                          03
+                        </span>
+                        <div className="flex-1">
+                          <h3 className="font-medium text-lg transition-colors duration-300 text-zinc-400">
+                            Refine&Optimize
+                          </h3>
+                        </div>
+                      </div>
+                    </button>
+                    <button className="w-full rounded-2xl p-6 text-left transition-all duration-300 bg-transparent opacity:0.6 ">
+                      <div className="flex items-start gap-4">
+                        <span className="font-medium text-lg transition-colors duration-300 text-zinc-400 transition:color 0s">
+                          04
+                        </span>
+                        <div className="flex-1">
+                          <h3 className="font-medium text-lg transition-colors duration-300 text-zinc-400">
+                            Route complex issues to a human{" "}
+                          </h3>
+                        </div>
+                      </div>
+                    </button>
+                    <button className="w-full rounded-2xl p-6 text-left transition-all duration-300 bg-transparent opacity:0.6 ">
+                      <div className="flex items-start gap-4">
+                        <span className="font-medium text-lg transition-colors duration-300 text-zinc-400 transition:color 0s">
+                          05
+                        </span>
+                        <div className="flex-1">
+                          <h3 className="font-medium text-lg transition-colors duration-300 text-zinc-400">
+                            Review Analytics@insights{" "}
+                          </h3>
+                        </div>
+                      </div>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -404,6 +440,257 @@ const LandingPage: React.FC = () => {
                     <polygon points="6 3 20 12 6 21 6 3"></polygon>
                   </svg>
                 </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="mx-auto flex w-full max-w-screen-xl px-6">
+        <div className="flex flex-col gap-4 py-12">
+          <div className="flex flex-col items-start gap-4">
+            <div className="inline-flex items-center rounded-full px-4 py-1.5 font-medium text-sm border border-zinc-200 bg-white text-zinc-950">
+              <div className="mr-2 size-2 rounded-full bg-gradient-to-r from-[#FB923C] via-[#F472B6] to-[#E879F9]"></div>
+              Features
+            </div>
+            <h2 className="font-medium text-4xl text-zinc-950 tracking-tight lg:text-5xl">
+              Build the perfect customer-facing AI agent
+            </h2>
+            <p className="max-w-[800px] text-lg text-zinc-500">
+              Chatbase gives you all the tools you need to train your perfect AI
+              agent and connect it to your systems.
+            </p>
+          </div>
+          <div className="grid gap-8 py-12">
+            <div className="grid gap-8 md:grid-cols-2">
+              <div className="group flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white">
+                <div className="w-full rouned-2xl px-4 pt-4">
+                  <img
+                    width="1216"
+                    height="696"
+                    src="https://www.chatbase.co/_next/image?url=https%3A%2F%2Fbackend.chatbase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fchatbase%2Flanding%2Ffeatures%2Fsync-with-realtime-data.png&w=1920&q=75&dpl=dpl_9XRftHWdiowZsxMZqnpC3jWw71zh"
+                  />
+                </div>
+                <div className="flex flex-col gap-2 px-5 pb-5">
+                  <h3 className="font-medium text-lg text-zinc-800 leading-[21.78px] tracking-[-0.02em]">
+                    Sync with real-time data
+                  </h3>
+                  <p className="text-[14px] text-zinc-600 leading-[22px] tracking-[-0.02em]">
+                    Connect your agent to systems like order management tools,
+                    CRMs, and more to seamlessly access data ranging from order
+                    details to active subscriptions and beyond.
+                  </p>
+                </div>
+              </div>
+              <div className="group flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white">
+                <div className="w-full rouned-2xl px-4 pt-4">
+                  <img
+                    width="1216"
+                    height="696"
+                    src="https://www.chatbase.co/_next/image?url=https%3A%2F%2Fbackend.chatbase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fchatbase%2Flanding%2Ffeatures%2Ftake-actions-on-your-systems.png&w=1920&q=75&dpl=dpl_9XRftHWdiowZsxMZqnpC3jWw71zh"
+                  />
+                </div>
+                <div className="flex flex-col gap-2 px-5 pb-5">
+                  <h3 className="font-medium text-lg text-zinc-800 leading-[21.78px] tracking-[-0.02em]">
+                    Take actions on your systems
+                  </h3>
+                  <p className="text-[14px] text-zinc-600 leading-[22px] tracking-[-0.02em]">
+                    Configure actions that your agent can perform within your
+                    systems or through one of our integrations, like updating a
+                    customer's subscription or changing their address.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="grid gap-8 md:grid-cols-3">
+              <div className="group flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white">
+                <div className="w-full rouned-2xl px-4 pt-4">
+                  <img
+                    width="794"
+                    height="696"
+                    src="https://www.chatbase.co/_next/image?url=https%3A%2F%2Fbackend.chatbase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fchatbase%2Flanding%2Ffeatures%2Fcompare-ai-models.png&w=828&q=75&dpl=dpl_9XRftHWdiowZsxMZqnpC3jWw71zh"
+                  />
+                </div>
+                <div className="flex flex-col gap-2 px-5 pb-5">
+                  <h3 className="font-medium text-lg text-zinc-800 leading-[21.78px] tracking-[-0.02em]">
+                    Compare AI models
+                  </h3>
+                  <p className="text-[14px] text-zinc-600 leading-[22px] tracking-[-0.02em]">
+                    Experiment with various models and configurations to make
+                    sure you have the best setup for your use case.
+                  </p>
+                </div>
+              </div>
+              <div className="group flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white">
+                <div className="w-full rouned-2xl px-4 pt-4">
+                  <img
+                    width="794"
+                    height="696"
+                    src="https://www.chatbase.co/_next/image?url=https%3A%2F%2Fbackend.chatbase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fchatbase%2Flanding%2Ffeatures%2Fsmart-escalation.png&w=828&q=75&dpl=dpl_9XRftHWdiowZsxMZqnpC3jWw71zh"
+                  />
+                </div>
+                <div className="flex flex-col gap-2 px-5 pb-5">
+                  <h3 className="font-medium text-lg text-zinc-800 leading-[21.78px] tracking-[-0.02em]">
+                    Smart escalation
+                  </h3>
+                  <p className="text-[14px] text-zinc-600 leading-[22px] tracking-[-0.02em]">
+                    Give your agent instructions in natural language on when to
+                    escalate queries to a human agents.
+                  </p>
+                </div>
+              </div>
+              <div className="group flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white">
+                <div className="w-full rouned-2xl px-4 pt-4">
+                  <img
+                    width="794"
+                    height="696"
+                    src="https://www.chatbase.co/_next/image?url=https%3A%2F%2Fbackend.chatbase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fchatbase%2Flanding%2Ffeatures%2Fadvanced-reporting.png&w=828&q=75&dpl=dpl_9XRftHWdiowZsxMZqnpC3jWw71zh"
+                  />
+                </div>
+                <div className="flex flex-col gap-2 px-5 pb-5">
+                  <h3 className="font-medium text-lg text-zinc-800 leading-[21.78px] tracking-[-0.02em]">
+                    Advanced reporting
+                  </h3>
+                  <p className="text-[14px] text-zinc-600 leading-[22px] tracking-[-0.02em]">
+                    Gain insights and optimize agent performance with detailed
+                    analytics.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="overflow-hidden  rounded-3xl border border-zinc-200 bg-white">
+              <div className=" hidden md:flex md:items-start md:justify-between md:p-8 md:pr-0">
+                <div className="flex flex-col gap-2">
+                  <h3 className="font-medium text-lg text-zinc-800 leading-[21.78px] tracking-[-0.02em]">
+                    Works with your tools
+                  </h3>
+                  <p className="max-w-[400px] text-[14px] text-zinc-600 leading-[22px] tracking-[-0.02em]">
+                    Integrate diverse data sources to enrich your agent's
+                    knowledge and capabilities.
+                  </p>
+                </div>
+                <div className="relative flex flex-col gap-3 overflow-x-auto max-h-[180px] max-w-[60%] lg:overflow-hidden">
+                  <div className="flex gap-3">
+                    <div className="inline-flex h-10 flex-shrink-0 items-center gap-2 rounded-full bg-zinc-100 p-1">
+                      <div className="flex h-8 w-8 items-center justify-center rounded-full border border-zinc-200 bg-white transition-colors hover:border-zinc-300">
+                        <img
+                          src="https://backend.chatbase.co/storage/v1/object/public/chatbase/landing/features/integrations/make.png"
+                          className="h-8 w-8"
+                        />
+                      </div>
+                      <div className="pr-2 font-medium text-sm text-zinc-800">
+                        Make
+                      </div>
+                    </div>
+                    <div className="inline-flex h-10 flex-shrink-0 items-center gap-2 rounded-full bg-zinc-100 p-1">
+                      <div className="flex h-8 w-8 items-center justify-center rounded-full border border-zinc-200 bg-white transition-colors hover:border-zinc-300">
+                        <img
+                          src="https://backend.chatbase.co/storage/v1/object/public/chatbase/landing/features/integrations/zendesk.png"
+                          className="h-8 w-8"
+                        />
+                      </div>
+                      <div className="pr-2 font-medium text-sm text-zinc-800">
+                        Zendesk
+                      </div>
+                    </div>
+                    <div className="inline-flex h-10 flex-shrink-0 items-center gap-2 rounded-full bg-zinc-100 p-1">
+                      <div className="flex h-8 w-8 items-center justify-center rounded-full border border-zinc-200 bg-white transition-colors hover:border-zinc-300">
+                        <img
+                          src="https://backend.chatbase.co/storage/v1/object/public/chatbase/landing/features/integrations/notion.png"
+                          className="h-8 w-8"
+                        />
+                      </div>
+                      <div className="pr-2 font-medium text-sm text-zinc-800">
+                        Notion
+                      </div>
+                    </div>
+                    <div className="inline-flex h-10 flex-shrink-0 items-center gap-2 rounded-full bg-zinc-100 p-1">
+                      <div className="flex h-8 w-8 items-center justify-center rounded-full border border-zinc-200 bg-white transition-colors hover:border-zinc-300">
+                        <img
+                          src="https://backend.chatbase.co/storage/v1/object/public/chatbase/landing/features/integrations/slack.png"
+                          className="h-8 w-8"
+                        />
+                      </div>
+                      <div className="pr-2 font-medium text-sm text-zinc-800">
+                        Slack
+                      </div>
+                    </div>
+                    <div className="inline-flex h-10 flex-shrink-0 items-center gap-2 rounded-full bg-zinc-100 p-1">
+                      <div className="flex h-8 w-8 items-center justify-center rounded-full border border-zinc-200 bg-white transition-colors hover:border-zinc-300">
+                        <img
+                          src="https://backend.chatbase.co/storage/v1/object/public/chatbase/landing/features/integrations/stripe.png"
+                          className="h-8 w-8"
+                        />
+                      </div>
+                      <div className="pr-2 font-medium text-sm text-zinc-800">
+                        Stripe
+                      </div>
+                    </div>
+                    <div className="inline-flex h-10 flex-shrink-0 items-center gap-2 rounded-full bg-zinc-100 p-1">
+                      <div className="flex h-8 w-8 items-center justify-center rounded-full border border-zinc-200 bg-white transition-colors hover:border-zinc-300">
+                        <img
+                          src="https://backend.chatbase.co/storage/v1/object/public/chatbase/landing/features/integrations/salesforce.png"
+                          className="h-8 w-8"
+                        />
+                      </div>
+                      <div className="pr-2 font-medium text-sm text-zinc-800">
+                        Salesforce
+                      </div>
+                    </div>
+                  </div>
+                  <div className="ml-8 flex gap-3">
+                    <div className="w-[100px] flex-shrink-0">
+                      <div className="flex h-8 w-[100px] transition-colors">
+                        <img
+                          src="https://backend.chatbase.co/storage/v1/object/public/chatbase/landing/features/integrations/green-cloud.png"
+                          className="h-8 w-100px object-cover"                         />
+                      </div>
+                    </div>
+                    <div className="inline-flex h-10 flex-shrink-0 items-center gap-2 rounded-full bg-zinc-100 p-1">
+                      <div className="flex h-8 w-8 items-center justify-center rounded-full border border-zinc-200 bg-white transition-colors hover:border-zinc-300">
+                        <img
+                          src="https://backend.chatbase.co/storage/v1/object/public/chatbase/landing/features/integrations/calendly.png"
+                          className="h-8 w-8"
+                        />
+                      </div>
+                      <div className="pr-2 font-medium text-sm text-zinc-800">
+                      Calendly
+                      </div>
+                    </div>
+                    <div className="inline-flex h-10 flex-shrink-0 items-center gap-2 rounded-full bg-zinc-100 p-1">
+                      <div className="flex h-8 w-8 items-center justify-center rounded-full border border-zinc-200 bg-white transition-colors hover:border-zinc-300">
+                        <img
+                          src="https://backend.chatbase.co/storage/v1/object/public/chatbase/landing/features/integrations/cal.png"
+                          className="h-8 w-8"
+                        />
+                      </div>
+                      <div className="pr-2 font-medium text-sm text-zinc-800">
+                      Cal
+                      </div>
+                    </div>
+                    <div className="inline-flex h-10 flex-shrink-0 items-center gap-2 rounded-full bg-zinc-100 p-1">
+                      <div className="flex h-8 w-8 items-center justify-center rounded-full border border-zinc-200 bg-white transition-colors hover:border-zinc-300">
+                        <img
+                          src="https://backend.chatbase.co/storage/v1/object/public/chatbase/landing/features/integrations/whatsapp.png"
+                          className="h-8 w-8"
+                        />
+                      </div>
+                      <div className="pr-2 font-medium text-sm text-zinc-800">
+                      Whatsapp
+                      </div>
+                    </div>
+                    <div className="inline-flex h-10 flex-shrink-0 items-center gap-2 rounded-full bg-zinc-100 p-1">
+                      <div className="flex h-8 w-8 items-center justify-center rounded-full border border-zinc-200 bg-white transition-colors hover:border-zinc-300">
+                        <img
+                          src="https://backend.chatbase.co/storage/v1/object/public/chatbase/landing/features/integrations/messenger.png"
+                          className="h-8 w-8"
+                        />
+                      </div>
+                      <div className="pr-2 font-medium text-sm text-zinc-800">
+                      Messenger
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
